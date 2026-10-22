@@ -25,7 +25,7 @@ RUN pnpm run build:contracts
 # ---
 
 # Stage 2: Production Runtime Environment
-FROM node:20.12.2-alpine3.19 AS production
+FROM node:22.23.4-alpine AS production
 
 WORKDIR /app
 
